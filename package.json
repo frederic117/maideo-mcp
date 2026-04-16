@@ -1,0 +1,43 @@
+{
+  "name": "@maideo/mcp",
+  "version": "0.1.2",
+  "description": "Official MCP server for the Maideo Agent API — book home cleaning services in France end-to-end",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "maideo-mcp": "src/index.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "MAIDEO_API_BASE=http://localhost:3000/public/agent node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "maideo",
+    "cleaning",
+    "menage",
+    "france",
+    "claude",
+    "chatgpt",
+    "agent"
+  ],
+  "author": "Maideo <dev@maideo.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frederic117/maideo-mcp"
+  },
+  "homepage": "https://www.maideo.fr/agents.txt"
+}
