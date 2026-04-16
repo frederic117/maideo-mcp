@@ -58,7 +58,7 @@ async function apiRequest(path, { method = "GET", body, bookingToken } = {}) {
 const server = new Server(
   {
     name: "@maideo/mcp",
-    version: "0.1.2",
+    version: "0.1.3",
   },
   {
     capabilities: {
